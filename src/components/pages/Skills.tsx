@@ -1,20 +1,12 @@
 import { motion } from 'framer-motion';
-import { Code2, Layout} from 'lucide-react';
+import { Code2, } from 'lucide-react';
 
 const skills = [
-  {
-    category: 'Frontend',
-    icon: <Layout className="w-6 h-6" />,
-    items: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Redux']
-  },
-
-
-
 
   {
-    category: 'Technologies',
+    category: 'skills & Technologies',
     icon: <Code2 className="w-6 h-6" />,
-    items: ['JavaScript', 'TypeScript',"Axios","React-router-dom","React-hook-from","BootStrap","Css","Html", ]
+    items: ['JavaScript', 'TypeScript',"Axios","React-router-dom","React-hook-from","BootStrap","Css","Html", 'React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Redux']
   }
 ];
 
@@ -52,7 +44,7 @@ export const Skills = () => {
                 {skill.items.map((item, itemIndex) => (
                   <span
                     key={itemIndex}
-                    className="px-3 py-1 bg-white border border-gray-200 rounded-full text-sm text-gray-700"
+                    className="px-3 py-1 dark:bg-slate-700 dark:text-white bg-white border  border-gray-200 rounded-full text-sm text-gray-700"
                   >
                     {item}
                   </span>
