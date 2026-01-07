@@ -3,7 +3,8 @@ import { ArrowDown } from 'lucide-react';
 import heroImage from '../../assets/hero-image.png';
 import { IoLogoGithub } from 'react-icons/io';
 import { FaLinkedin, FaWhatsappSquare } from 'react-icons/fa';
-import { FaSquareUpwork } from 'react-icons/fa6';
+import { FaSquareUpwork, FaYoutube } from 'react-icons/fa6';
+import { SiMedium } from 'react-icons/si';
 
 export const Hero = () => {
   return (
@@ -51,6 +52,12 @@ export const Hero = () => {
                 {/* GitHub */}
                 <a href="https://github.com/Abdelrahman-Yaser" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform text-black dark:text-white">
                   <IoLogoGithub size={30} />
+                </a>
+                <a href="https://medium.com/@abdooy640" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform text-red-600">
+                  <SiMedium size={30} />
+                </a>
+                        <a href="https://www.youtube.com/@deep_dive-z5w" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform text-red-600">
+                  <FaYoutube size={30} />
                 </a>
               </div>
             </motion.div>
