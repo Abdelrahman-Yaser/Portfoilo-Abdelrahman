@@ -7,13 +7,25 @@ import { Contact } from './components/pages/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white">
+    <div className="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300">
       <Header />
       <main>
-        <Hero />
-        <Projects />
-        <Skills />
-        <Contact />
+        {/* إضافة معرفات ID لكل قسم ليتمكن الهيدر من الانتقال إليها */}
+        <section id="hero">
+          <Hero />
+        </section>
+        
+        <section id="projects">
+          <Projects />
+        </section>
+        
+        <section id="skills">
+          <Skills />
+        </section>
+        
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
     </div>
   );
