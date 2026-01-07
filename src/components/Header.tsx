@@ -58,7 +58,7 @@ export const Header = () => {
     }`}>
       <div className="container mx-auto px-6 h-full flex justify-between items-center">
         <a href="#hero" onClick={(e) => scrollToSection(e, "#hero")} className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-          As Coding
+        Deep Dive
         </a>
 
         {/* Desktop Menu */}
