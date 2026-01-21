@@ -56,7 +56,7 @@ export const Header = () => {
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
       scrolled ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-md h-16" : "bg-transparent h-20"
     }`}>
-      <div className="container mx-auto px-6 h-full flex justify-between bg-gray-50 dark:bg-gray-800 items-center">
+      <div className="container mx-auto px-6 h-full flex justify-between bg-gray-200 dark:bg-gray-900 items-center rounded-lg mt-20">
         <a href="#hero" onClick={(e) => scrollToSection(e, "#hero")} className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
         Deep Dive
         </a>
