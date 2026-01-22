@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'Vacation Tracking System (VTS)',
     category: 'Backend',
-    description: 'نظام مؤسسي لإدارة إجازات الموظفين مع دورة اعتماد متسلسلة ونظام تنبيهات، وسجل مراجعة (Audit Log) كامل لضمان الشفافية.',
+    description: 'A robust vacation tracking system built with NestJS, featuring Redis caching, PostgreSQL database, JWT authentication, and Bcrypt for secure password management.',
     image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=1000',
     tech: ['NestJS', 'Redis', 'PostgreSQL', 'JWT', 'Bcrypt'],
     github: 'https://github.com/Abdelrahman-Yaser/VTS_vacation-tracking-system',
@@ -25,7 +25,7 @@ const projects = [
   {
     title: 'Mennova E-Commerce Store',
     category: ['FullStack', 'Backend'],
-    description: 'متجر إلكتروني يوفر نظام سلة تسوق متطور، معالجة الطلبات، وتكامل مع بوابة Stripe. يدعم لوحة تحكم كاملة للمسؤول.',
+    description: 'Developed a scalable e-commerce backend with NestJS, integrating Stripe for payments and PostgreSQL for data management, complete with API documentation via Swagger.',
     image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1000',
     tech: ['NestJS', 'Stripe API', 'PostgreSQL', 'TypeORM', 'Swagger'],
     github: 'https://github.com/Abdelrahman-Yaser/mennova',
