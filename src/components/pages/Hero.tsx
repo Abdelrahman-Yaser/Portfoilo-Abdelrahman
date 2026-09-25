@@ -57,9 +57,9 @@ export const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-5xl md:text-7xl font-bold mb-4">
-                Hi, I'm <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">Abdelrahman</span>
-              </h1>
+              <h3 className="text-1xl md:text-5xl font-bold mb-4  dark:text-white text-gray-800">
+                Hi, I'm Abdelrahman
+              </h3>
             </motion.div>
 
             <motion.div
@@ -93,7 +93,7 @@ export const Hero = () => {
             </motion.div>
 
             <p className="text-gray-600 dark:text-gray-400 max-w-lg mb-10 leading-relaxed text-lg">
-              Full-Stack Developer with a strong foundation in **Frontend** using React.js and **Backend** with NestJS. I build scalable, high-performance applications with clean code.
+              I create beautiful, functional web experiences. Specialized in React & NestJS, turning ideas into scalable solutions with clean, maintainable code.
             </p>
 
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
