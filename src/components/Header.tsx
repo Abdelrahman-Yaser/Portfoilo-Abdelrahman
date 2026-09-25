@@ -14,7 +14,7 @@ type NavLink =
   | { name: string; type: "route"; href: string };
 
 export const Header = () => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
